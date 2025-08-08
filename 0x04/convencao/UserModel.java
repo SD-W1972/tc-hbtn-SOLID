@@ -3,5 +3,5 @@ class UserModel {
     int idUser;
     String descricao;
     final static int IDADE_MINIMA = 18;
-    public GetUsers() {return [];}
+    public getUsers() {return [];}
 }
