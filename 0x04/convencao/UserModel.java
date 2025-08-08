@@ -1,22 +1,12 @@
 // classe users, representando nossa entidade
 
-class UsersModels {
+class UserModel {
 
-    int IdUser;
+    int idUser;
 
-    String Descricao;
+    String descricao;
 
-    final static int IDADEMINIMA = 18;
-
-// função que coleta todos os users
-
-    public FetchUsers() { return [];}
-
-// função que coleta todos os users
-
-    public AllUsers() {return [];}
-
-// função que coleta todos os users
+    final static int IDADE_MINIMA = 18;
 
     public GetUsers() {return [];}
 
